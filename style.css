@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+section {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para la sección de propietario */
+#propietario {
+  border: 1px solid #ddd;
+}
+
+/* Estilos para la sección de mascota */
+#mascota {
+  border: 1px solid #ddd;
+}
+
+/* Estilos para los elementos fuertes (strong) */
+strong {
+  color: #3498db;
+}
+
+/* Estilos para la lista de vacunas y operaciones */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Estilo para el título de sección h2 */
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para los enlaces dentro del footer */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px; /* Espacio entre los iconos */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-icon {
+  font-size: 24px; /* Tamaño de los iconos */
+  transition: color 0.3s; /* Transición de color al pasar el cursor sobre ellos */
+}
+
+.social-icon:hover {
+  color: #16919B; /* Cambiar el color al pasar el cursor sobre los iconos */
+}
+
+
+.photo-property {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-property img {
+  width: 180px;
+}
+
+.photo-qr a img {
+  width: 180px;
+}
